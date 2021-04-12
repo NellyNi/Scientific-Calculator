@@ -19,7 +19,7 @@ mvn -Dtest=CalculatorSpec test'''
     stage('static analyst') {
       steps {
         sh '''cd Calculator/
-mvn sonar:sonar -Dsonar.projectKey=io.michaelcane:bestcalculator -Dsonar.host.url=http://localhost:9000 -Dsonar.login=6a329fdfa7aba58520fc20a9fa83148fa40cceb5'''
+mvn sonar:sonar -Dsonar.projectKey=io.michaelcane:bestcalculator -Dsonar.host.url=http://localhost:9000 -Dsonar.login=b21eb28d25c7933042aa91a8982149b7516394ca'''
       }
     }
 
