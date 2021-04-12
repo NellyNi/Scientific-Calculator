@@ -65,6 +65,13 @@ public class Calculator {
         return Math.pow(value1, value2);
     }
 
+    public static double eulerExponentiation(double value1) {
+        /**
+         * This method should evaluate value1 (double) to the power of value2 (double).
+         */
+        return Math.pow(Math.E, value1);
+    }
+
     public static double invertPositiveAndNegative(double value1) {
         /**
          * This method will invert the sign of the number

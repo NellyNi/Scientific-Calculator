@@ -22,6 +22,7 @@ public class Commands {
         CLEARMEMORY,
         COSINE,
         DIVIDE,
+        EULEREXPONENTIATION,
         FACTORIAL,
         INVERSECOSINE,
         INVERSELOGARITHM,
@@ -55,6 +56,9 @@ public class Commands {
                 break;
             case DIVIDE:
                 calculator.divide(display.getState(), user.isNumber);
+                break;
+            case EULEREXPONENTIATION:
+                calculator.eulerExponentiation(user.isNumber);
                 break;
             case FACTORIAL:
                 calculator.factorial(user.isNumber);

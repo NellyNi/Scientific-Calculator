@@ -23,7 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="498e087b-c69e-4a2c-aa1d-357ada1fc161" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/michaelcane/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/michaelcane/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/michaelcane/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/michaelcane/Commands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/michaelcane/CalculatorSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/michaelcane/CalculatorSpec.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +66,6 @@
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="710" />
   </component>
   <component name="ProjectId" id="1r53xQsKPybKSaC5o7oIeqx6KlQ" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -168,7 +166,7 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.CalculatorSpec.test$eulerExponentiation">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -483,7 +481,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorSpec.test$inverseLog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorSpec.test$eulerExponentiation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Calculator" />
       <extension name="coverage">
         <pattern>
@@ -493,7 +491,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="io.michaelcane" />
       <option name="MAIN_CLASS_NAME" value="io.michaelcane.CalculatorSpec" />
-      <option name="METHOD_NAME" value="test$inverseLog" />
+      <option name="METHOD_NAME" value="test$eulerExponentiation" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -579,17 +577,17 @@
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="JUnit.CalculatorSpec" />
-      <item itemvalue="JUnit.CalculatorSpec.test$inverseLog" />
       <item itemvalue="JUnit.CalculatorSpec.test$inverseLogarithm" />
       <item itemvalue="JUnit.CalculatorSpec.test$divide" />
+      <item itemvalue="JUnit.CalculatorSpec.test$eulerExponentiation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorSpec.test$eulerExponentiation" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.CalculatorSpec" />
         <item itemvalue="JUnit.CalculatorSpec.test$divide" />
         <item itemvalue="JUnit.CalculatorSpec.test$inverseLogarithm" />
-        <item itemvalue="JUnit.CalculatorSpec.test$inverseLog" />
       </list>
     </recent_temporary>
   </component>
@@ -617,38 +615,6 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="CalculatorSpec - 2016.04.30 at 22h 00m 14s.xml">
-      <configuration name="CalculatorSpec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorSpec - 2016.04.30 at 22h 00m 50s.xml">
-      <configuration name="CalculatorSpec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorSpec - 2016.04.30 at 22h 06m 00s.xml">
-      <configuration name="CalculatorSpec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorSpec - 2016.04.30 at 22h 07m 19s.xml">
-      <configuration name="CalculatorSpec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorSpec - 2016.04.30 at 22h 13m 10s.xml">
-      <configuration name="CalculatorSpec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorSpec - 2016.04.30 at 22h 16m 48s.xml">
-      <configuration name="CalculatorSpec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorSpec - 2016.04.30 at 22h 18m 42s.xml">
-      <configuration name="CalculatorSpec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorSpec - 2016.04.30 at 23h 18m 06s.xml">
-      <configuration name="CalculatorSpec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorSpec - 2016.04.30 at 23h 18m 39s.xml">
-      <configuration name="CalculatorSpec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorSpec - 2016.04.30 at 23h 19m 03s.xml">
-      <configuration name="CalculatorSpec" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="59666000" />
   </component>
@@ -671,6 +637,24 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1400" height="210" key="GridCell.Tab.0.bottom" timestamp="1618259785349">
+      <screen x="0" y="23" width="1440" height="840" />
+    </state>
+    <state width="1400" height="210" key="GridCell.Tab.0.bottom/0.23.1440.840@0.23.1440.840" timestamp="1618259785349" />
+    <state width="1400" height="210" key="GridCell.Tab.0.center" timestamp="1618259785348">
+      <screen x="0" y="23" width="1440" height="840" />
+    </state>
+    <state width="1400" height="210" key="GridCell.Tab.0.center/0.23.1440.840@0.23.1440.840" timestamp="1618259785348" />
+    <state width="1400" height="210" key="GridCell.Tab.0.left" timestamp="1618259785348">
+      <screen x="0" y="23" width="1440" height="840" />
+    </state>
+    <state width="1400" height="210" key="GridCell.Tab.0.left/0.23.1440.840@0.23.1440.840" timestamp="1618259785348" />
+    <state width="1400" height="210" key="GridCell.Tab.0.right" timestamp="1618259785349">
+      <screen x="0" y="23" width="1440" height="840" />
+    </state>
+    <state width="1400" height="210" key="GridCell.Tab.0.right/0.23.1440.840@0.23.1440.840" timestamp="1618259785349" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

@@ -93,6 +93,16 @@ public class CalculatorSpec {
     }
 
     @Test
+    public void test$eulerExponentiation() {
+        /**
+         * This method should evaluate Euler's number (e) to the power of value1 (double).
+         */
+        double expectedValue = 20.085536923187664;
+        double actualValue = calculator.eulerExponentiation(3);
+        assertEquals("This should evaluate to 20.08553692", expectedValue, actualValue, delta);
+    }
+
+    @Test
     public void test$invertPositiveAndNegative() {
         /**
          * This method will invert the sign of the number
