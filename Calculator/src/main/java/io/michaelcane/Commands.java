@@ -4,7 +4,7 @@ public class Commands {
 
     Calculator calculator;
     Display display = new Display();
-    User user = new User();
+    User user;
 
     Command command;
 
