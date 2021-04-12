@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh '''cd Calculator/
+        sh '''git pull
+cd Calculator/
 mvn install'''
       }
     }
